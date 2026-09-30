@@ -1,0 +1,27 @@
+# Dependencies and local package cache
+node_modules/
+.npm-cache/
+
+# Nuxt generated files and build output
+.nuxt/
+.output/
+.data/
+dist/
+
+# Local environment and secrets (keep example templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+
+# Test reports and coverage
+coverage/
+playwright-report/
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
